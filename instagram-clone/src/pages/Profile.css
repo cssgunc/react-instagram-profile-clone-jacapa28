@@ -1,0 +1,117 @@
+main {
+    margin-left: 23%;
+    display: flex;
+    flex-direction: column;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.pfp {
+    margin: 55px;
+}
+
+.infocontainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+    margin-right: 150px;
+    margin-left: 40px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.topname {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: larger;
+    margin-right: 20px;
+}
+
+.followbutton {
+    height: 30px;
+    width: 80px;
+    border-radius: 7px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: small;
+    margin-right: 10px;
+    background-color: rgb(51, 145, 239);
+    font-weight: bold;
+}
+.followbutton:hover {
+    background-color: rgb(46, 99, 231);
+}
+
+.messagebutton {
+    height: 30px;
+    width: 80px;
+    border-radius: 7px;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: small;
+    margin-right: 10px;
+    font-weight: bold;
+}
+.messagebutton:hover {
+    background-color: lightgray;
+}
+
+.row2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rowtext {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: medium;
+    font-weight: lighter;
+    margin-right: 40px;
+}
+
+.biotext {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.postbar {
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid lightgray;
+    justify-content: center;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+.postbartext {
+    background-color: white;
+    border: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkgray;
+    font-size: small;
+    font-weight: lighter;
+    padding-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.postcontainer {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}

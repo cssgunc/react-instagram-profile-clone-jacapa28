@@ -1,0 +1,22 @@
+.one {
+    margin-left: 65px;
+    margin-right: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.two {
+    margin-left: 325px;
+    margin-right: 325px;
+    margin-bottom: 65px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footertext {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #929cae
+}

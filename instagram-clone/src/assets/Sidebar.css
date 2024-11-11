@@ -1,0 +1,51 @@
+.maincontainer {
+    position: fixed;
+    height: 100%;
+    width: 19%;
+    border-right: 1px solid lightgray;
+    margin: 0px;
+}
+
+.instagramimage {
+    margin: 25px 0px 0px 13px
+}
+
+.paircontainer {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 5px 20px 5px 10px;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    margin-left: 5px;
+    margin-right: 10px;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+.paircontainer:hover {
+    background-color: lightgray;
+}
+
+.lefttext {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    margin-left: 16px;
+    margin-bottom: 3px;
+    font-size: 15px;
+}
+
+.smallpfpcontainer {
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    padding: 10px 20px 10px 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 10px;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+.smallpfpcontainer:hover {
+    background-color: lightgray;
+}
